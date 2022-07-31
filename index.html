@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/icons8-walter-white-32.png"
+      type="image/x-icon"
+    />
+    <style>
+      body {
+        font-family: 'Noto Serif', serif;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.scss" />
+    <script type="module" src="index.js"></script>
+    <title>Tural Aliyev</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__title">
+        <h1>Tural Aliyev</h1>
+      </div>
+      <div class="header__links">
+        <ul class="list__items">
+          <li class="list__item">
+            <a class="link" href="#overview">Overview</a>
+          </li>
+          <li class="list__item">
+            <a class="link" href="#experience">Experience</a>
+          </li>
+          <li class="list__item">
+            <a class="link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav">
+        <img class="nav__bar" src="images/menu_white_buttom__navbar-512.webp" />
+      </div>
+    </header>
+    <div class="navigation hidden">
+      <div class="close">
+        <img class="nav__bar" src="src/icons8-cancel.svg" />
+      </div>
+      <ul class="nav__list">
+        <li class="list__item">
+          <a class="link" href="#overview">Overview</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#experience">Experience</a>
+        </li>
+        <li class="list__item">
+          <a class="link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </div>
+    <div class="under__header" id="overview"></div>
+    <div class="container">
+      <div class="overview">
+        <h2 class="overview__title">Overview</h2>
+        <p>Welcome to my personal web-page!</p>
+        <p>
+          Everything what you abserve here was done by me with pure Javascript.
+        </p>
+        <p>Here You can find most about me, including my CV.</p>
+        <div class="link__container">
+          <a class="cv__link" href="src/resume.pdf" download=""
+            >Download My CV</a
+          >
+        </div>
+      </div>
+      <div class="photo__container">
+        <img src="images/pexels-josh-sorenson-1714208.jpg" />
+      </div>
+    </div>
+    <div class="space__between"></div>
+    <div class="container">
+      <div class="photo__container">
+        <img class="left__photo" src="images/pexels-pixabay-207779.jpg" />
+      </div>
+      <div class="overview">
+        <h2 class="overview__title">Interests</h2>
+        <p>
+          Let me introduce myself by specifying my hobbies. The main ones are
+          coding, sport, travelling, movies.
+        </p>
+        <p>
+          Let's go one by one. I started my coding adventure from 2016. I was
+          studying in computer engineering department.
+        </p>
+        <p>
+          And over the last year I have decided to dig dipper into the front-end
+          development.
+        </p>
+        <p>Sport has always had a place in my life, especially football</p>
+        <p>
+          And I am in love with travelling, discovering new places or visiting
+          old ones.
+        </p>
+      </div>
+    </div>
+    <div class="space__between" id="experience"></div>
+    <div class="container">
+      <div class="overview">
+        <h2 class="overview__title">Experience</h2>
+        <p>"Front-End Web-Developer" at Ronwell Digital (06.2021 - 01.2022)</p>
+        <p>"IT Consulter Intern" at Ernst & Young (08.2019 - 10.2019)</p>
+        <p>"Call Center Operator" at Premyera (06.2014 - 08.2014)</p>
+      </div>
+      <div class="photo__container">
+        <img src="images/pexels-soumil-kumar-735911.jpg" />
+      </div>
+    </div>
+    <div class="space__between"></div>
+    <div class="container">
+      <div class="photo__container">
+        <img class="left__photo" src="images/pexels-ekrulila-2293019.jpg" />
+      </div>
+      <div class="overview">
+        <h2 class="overview__title">Certificates</h2>
+        <p>"The Complete Javascript Course 2022" by Jonas Schmedtmann</p>
+        <p>
+          "Vue - The Complete Guide (incl. Routes & Composition API" by
+          Maximilian Schwarzmuller
+        </p>
+        <h2 class="overview__title" style="margin-top: 10px">
+          Programming Languages
+        </h2>
+        <ul class="programming__logos">
+          <li>
+            <img
+              class="programming__logo"
+              src="images/javascript-logo-E967E87D74-seeklogo.com.png"
+            />
+          </li>
+          <li>
+            <img
+              class="programming__logo"
+              src="images/2048px-HTML5_logo_and_wordmark.svg.png"
+            />
+          </li>
+          <li>
+            <img
+              class="programming__logo"
+              src="images/CSS3_logo_and_wordmark.svg.png"
+            />
+          </li>
+          <li>
+            <img class="programming__logo" src="images/nodejs.jpg" />
+          </li>
+          <li>
+            <img
+              class="programming__logo"
+              src="images/695px-C_Programming_Language.svg.png"
+            />
+          </li>
+          <li>
+            <img class="programming__logo" src="images/vuejs-1175052.webp" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="space__between" id="contacts"></div>
+    <div class="contact__container">
+      <h1 class="contact__message">Take a Coffee and Chat with Me</h1>
+      <div class="form__container">
+        <form
+          class="form"
+          action="https://formspree.io/f/mknydkld"
+          method="POST"
+        >
+          <input
+            class="form__input"
+            type="text"
+            name="yourName"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            class="form__input"
+            type="email"
+            name="yourEmail"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            id="text__input"
+            name="yourMessage"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="form__submit">Send a Message</button>
+          <p id="my-form-status"></p>
+        </form>
+      </div>
+    </div>
+    <div class="space__between"></div>
+    <footer class="footer">
+      <div class="footer__fel">
+        <h5>@2022 TURAL ALIYEV</h5>
+        <h5>ALL RIGHTS RESERVED</h5>
+      </div>
+      <div class="footer__sel">
+        <ul class="list__items">
+          <a href="https://www.instagram.com/aliyevtural_/">
+            <img class="svg__icon" src="src/instagram-svgrepo-com.svg" />
+          </a>
+          <a href="https://www.facebook.com/tural.aliyev.16">
+            <img class="svg__icon" src="src/facebook-svgrepo-com.svg" />
+          </a>
+          <a href="https://www.linkedin.com/in/tural-aliyev-5564211b0/">
+            <img
+              class="svg__icon"
+              src="src/linkedin-social-media-svgrepo-com.svg"
+            />
+          </a>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
